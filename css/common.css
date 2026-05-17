@@ -44,8 +44,20 @@ h2{
 }
 
 .item{
-  border: #80808080 solid 1px;
+  border: 1px solid #80808080;
   border-radius: 5px;
   padding:8px 16px;
   color: #2E2F4280;
 } 
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+
+}
+
+/* .img-item{
+  max-width:360px ;
+  max-height:300px ;
+} */
