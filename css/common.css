@@ -1,6 +1,12 @@
 * {
   box-sizing: border-box;
 }
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 body {
   margin: 16px;
@@ -12,3 +18,34 @@ body {
   color: #212121;
   line-height: 1.5;
 }
+
+h2{
+  margin-top: 0px;
+  margin-bottom: 16px;
+}
+
+#categories{
+  display: flex;
+  flex-direction: column;
+  max-width: 392px;
+  gap: 24px;
+}
+
+.itembox{
+  padding: 16px 16px;
+  background-color: #F6F6FE;
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px; 
+}
+
+.item{
+  border: #80808080 solid 1px;
+  border-radius: 5px;
+  padding:8px 16px;
+  color: #2E2F4280;
+} 
