@@ -35,23 +35,14 @@ for (const eimg of images) {
   const elemimg = document.createElement('img');
 
   elemli.classList.add('img-item');
+  elemimg.classList.add('js-img');
+
   elemimg.setAttribute('src',eimg.url);
   elemimg.setAttribute('alt', eimg.alt);
-  elemimg.style.width = '360px';
-  elemimg.style.height = '300px';
+ 
   elemli.append(elemimg);
-  // console.log(elemli);
   arrayElem.push(elemli); 
 }
 
-
-//  console.log(arrayElem);
-
-
 mgalery.append(...arrayElem);
 
-
-// console.log(elemli);
-// console.log(elemimg);
-
-// console.log(mgalery);
