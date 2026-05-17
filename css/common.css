@@ -51,6 +51,7 @@ h2{
 } 
 
 .gallery{
+  padding: 100px 156px;
   display: flex;
   flex-wrap: wrap;
   gap: 24px;
