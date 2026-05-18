@@ -121,3 +121,29 @@ h2{
 .btn:hover{
   background-color:#6C8CFF;
 }
+
+/* Task -5 */
+
+.widget {
+  max-width:345px ;
+  max-height:280px ;
+  padding:100px 88px;
+  background-color: #FFFFFF;
+  margin: auto;
+  text-align: center;
+}
+
+button.change-color {
+  background-color:#4E75FF ;
+  color: #FFFFFF;
+  padding:8px 16px;
+  border:none;
+  border-radius: 5px;
+  transition: background-color 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+} 
+
+button.change-color:hover {
+  background-color:#6C8CFF ;
+  cursor: pointer;
+}
+
