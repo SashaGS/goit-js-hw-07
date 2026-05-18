@@ -10,17 +10,20 @@
   <body>
     <p><a href="./index.html">Go back</a></p>
 
-    <form class="login-form">
-      <label>
-        Email
-        <input type="email" name="email" />
-      </label>
-      <label>
-        Password
-        <input type="password" name="password" />
-      </label>
-      <button type="submit">Login</button>
-    </form>
+    <div class="wraper">
+      <form class="login-form">
+        <div class="form-group">
+
+          <label for="email">Email</label>     
+          <input class="form-input" type="email" id="email" name="email" />
+          
+          <label for="password">Password</label>           
+          <input class="form-input" type="password" id="password" name="password" />
+
+        </div>
+        <button class="btn" type="submit">Login</button>
+      </form>
+    </div>
 
     <script src="./js/task-4.js" type="module"></script>
   </body>
